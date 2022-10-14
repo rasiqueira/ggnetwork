@@ -1,7 +1,7 @@
 import random
 import streamlit as st
 
-st.title('Simulação do GGnetwork antes e depois do Bounty Jackpot')
+st.title('Antes e depois do Jackpot')
 form = st.form("my_form")
 number = form.number_input('Qunatidade de jogadores do torneio: ',step=1)
 buyin = form.number_input('Qual o valor do Buy in: ',step=1)
