@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title('Antes e depois do Jackpot')
 form = st.form("my_form")
-number = form.number_input('Qunatidade de jogadores do torneio: ',step=1)
+number = form.number_input('Quantidade de jogadores do torneio: ',step=1)
 buyin = form.number_input('Qual o valor do Buy in: ',step=1)
 games = form.number_input('Quantidade de jogos a simular: ',step=1)
 fee = form.number_input('Qual o valor do fee para jackpot: ',step=1)
